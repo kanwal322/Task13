@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frequently Asked Questions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="faq-header">
+    <h1>Frequently Asked Questions</h1>
+    <p>Answers to common questions about our remote internship</p>
+  </header>
+
+  <main class="faq-container">
+    <!-- 8 FAQ Items with ARIA & improved structure -->
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq1" id="q1">
+        How long is the internship? <span class="icon">➕</span>
+      </button>
+      <div id="faq1" class="faq-answer" role="region" aria-labelledby="q1">
+        The internship lasts 4–6 weeks depending on performance.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq2" id="q2">
+        Is the internship paid? <span class="icon">➕</span>
+      </button>
+      <div id="faq2" class="faq-answer" role="region" aria-labelledby="q2">
+        No, the internship is unpaid but offers valuable learning and certification.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq3" id="q3">
+        Do I need prior experience? <span class="icon">➕</span>
+      </button>
+      <div id="faq3" class="faq-answer" role="region" aria-labelledby="q3">
+        Basic knowledge of HTML, CSS, and JS is helpful but not mandatory.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq4" id="q4">
+        Will I get a certificate? <span class="icon">➕</span>
+      </button>
+      <div id="faq4" class="faq-answer" role="region" aria-labelledby="q4">
+        Yes, upon successful completion, you’ll receive a digital certificate.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq5" id="q5">
+        How will I communicate with the team? <span class="icon">➕</span>
+      </button>
+      <div id="faq5" class="faq-answer" role="region" aria-labelledby="q5">
+        Most communication is via Discord or Slack channels.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq6" id="q6">
+        What projects will I work on? <span class="icon">➕</span>
+      </button>
+      <div id="faq6" class="faq-answer" role="region" aria-labelledby="q6">
+        You'll build real-world projects: portfolios, blogs, landing pages, and more.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq7" id="q7">
+        What are the working hours? <span class="icon">➕</span>
+      </button>
+      <div id="faq7" class="faq-answer" role="region" aria-labelledby="q7">
+        Flexible hours, but timely task submissions are expected.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" aria-expanded="false" aria-controls="faq8" id="q8">
+        How will my performance be evaluated? <span class="icon">➕</span>
+      </button>
+      <div id="faq8" class="faq-answer" role="region" aria-labelledby="q8">
+        Based on task completion, code quality, consistency, and communication.
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
